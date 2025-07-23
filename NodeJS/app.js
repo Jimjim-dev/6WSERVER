@@ -4,8 +4,6 @@ myLogModule.warning('Warning node not configured..');
 myLogModule.error('Error: Node encountered an error..');
 myLogModule.info('Node running...');
 
-var msg = require('./Utility/Message.js');
-console.log(msg);
 
 var person = require('./data.js');
 console.log(person.firstName + ' ' + person.lastName);
@@ -14,5 +12,5 @@ console.log(person.firstName + ' ' + person.lastName);
 // msg('Hello World');
 
 // var person = require('./Person.js');
-// var person1 = new person('Smith Dainielle', 'Romero');
+// var person1 = new person('Arjee Emmanuel', 'Abella');
 // console.log(person1.fullName());
