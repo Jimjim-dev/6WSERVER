@@ -1,8 +1,11 @@
-const galleryModule = require('./module/gallery_module.js');
-const aboutModule = require('./module/about_module.js');
-const notFoundModule = require('./module/not_found_module.js');
+const http = require('http');
+const rootModule = require('./Modules/Root_module.js');
+const contactModule = require('./Modules/Contact_module.js');
+const galleryModule = require('./Modules/Gallery_module.js');
+const aboutModule = require('./Modules/About_module.js');
+const notFoundModule = require('./Modules/Not_found_module.js');
 
-const name = "Romero, Smith Dainielle L.";
+const name = "Arjee Emmanuel Abella A.";
 
 var server = http.createServer(function (req, res) {
     if (req.url == '/root' || req.url == '/') {

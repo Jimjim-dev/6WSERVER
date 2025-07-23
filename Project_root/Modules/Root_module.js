@@ -1,4 +1,4 @@
-var footer = require('../module/footer_module.js');
+var footer = require('../Modules/Footer_module.js');
 module.exports = function(name) {
     return `
     <html>
